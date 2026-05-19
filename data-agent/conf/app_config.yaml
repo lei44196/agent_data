@@ -42,4 +42,4 @@ es:
 
 llm:
   model_name: qwen-max
-  api_key: sk-6f3e723049ec408c9f3cb01a83020389
+  api_key: 
