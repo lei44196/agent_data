@@ -1,0 +1,39 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+*.egg
+
+# ============ Environment & Secrets ============
+conf/app_config.yaml
+.env
+.env.*
+!.env.example
+
+# ============ IDE ============
+.idea/
+.vscode/
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============ Logs ============
+logs/
+*.log
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+
+# ============ Node ============
+node_modules/
+dist/
+dist-ssr/
+*.local

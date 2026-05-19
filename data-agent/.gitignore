@@ -1,0 +1,31 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+*.egg
+
+# ============ Environment & Secrets ============
+conf/app_config.yaml
+.env
+.env.*
+
+# ============ IDE ============
+.idea/
+.vscode/
+*.sw?
+
+# ============ Logs ============
+logs/
+*.log
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+
+# ============ Docker ============
+docker/
